@@ -12,21 +12,31 @@ Unit tests using Jest and Supertest
 --Installation & Setup
 
 1. Clone the Repository
-```sh git clone https://github.com/your-username/user-api.git cd user-api ```
+```
+sh git clone https://github.com/your-username/user-api.git cd user-api
+ ```
 
-2. Install Dependencies
-```sh npm install ```
+3. Install Dependencies
+```
+sh npm install
+ ```
 
-3. Configure Environment Variables
-Create a .env file in the root directory and add the following: ```env DB_NAME=userdb DB_USER=postgres DB_PASSWORD=yourpassword DB_HOST=127.0.0.1 DB_DIALECT=postgres PORT=5000 ```
+5. Configure Environment Variables
+Create a .env file in the root directory and add the following:
+```
+env DB_NAME=userdb DB_USER=postgres DB_PASSWORD=yourpassword DB_HOST=127.0.0.1 DB_DIALECT=postgres PORT=5000
+ ```
 
-4. Setup Database
-Ensure PostgreSQL is running, then execute: ```sh npx sequelize-cli db:create npx sequelize-cli db:migrate ```
+7. Setup Database
+Ensure PostgreSQL is running, then execute:
+```
+sh npx sequelize-cli db:create npx sequelize-cli db:migrate
+```
 
-5. Start the Server
+9. Start the Server
 For production: ```sh npm start ``` For development with hot reload: ```sh npm run dev ```
 
-6. Run Tests
+10. Run Tests
 ```sh npm test ```
 
 Usage
@@ -65,7 +75,8 @@ Project Structure
 │── .env # Environment variables
 │── server.js # Main entry point
 │── swagger.js # Swagger documentation setup
-│── README.md # Documentation ```
+│── README.md # Documentation
+```
 
 License
 This project is licensed under the MIT License. ```
