@@ -8,7 +8,9 @@ Input validation with middleware
 Error handling
 API documentation with Swagger
 Unit tests using Jest and Supertest
-Installation & Setup
+
+--Installation & Setup
+
 1. Clone the Repository
 ```sh git clone https://github.com/your-username/user-api.git cd user-api ```
 
@@ -53,7 +55,17 @@ API Documentation
 Swagger documentation is available at: ``` http://localhost:5000/api-docs ```
 
 Project Structure
-``` user-api/ │── config/ # Database configuration │── controllers/ # Request handlers │── middlewares/ # Middleware functions │── models/ # Sequelize models │── routes/ # API route definitions │── tests/ # Unit tests │── .env # Environment variables │── server.js # Main entry point │── swagger.js # Swagger documentation setup │── README.md # Documentation ```
+``` user-api/ 
+│── config/ # Database configuration
+│── controllers/ # Request handlers
+│── middlewares/ # Middleware functions
+│── models/ # Sequelize models
+│── routes/ # API route definitions
+│── tests/ # Unit tests
+│── .env # Environment variables
+│── server.js # Main entry point
+│── swagger.js # Swagger documentation setup
+│── README.md # Documentation ```
 
 License
 This project is licensed under the MIT License. ```
