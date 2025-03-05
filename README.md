@@ -13,12 +13,12 @@ Unit tests using Jest and Supertest
 
 1. Clone the Repository
 ```
-sh git clone https://github.com/your-username/user-api.git cd user-api
+ git clone https://github.com/your-username/user-api.git cd user-api
  ```
 
 3. Install Dependencies
 ```
-sh npm install
+ npm install
  ```
 
 5. Configure Environment Variables
@@ -79,7 +79,7 @@ Project Structure
 ```
 
 License
-This project is licensed under the MIT License. ```
+This project is licensed under the MIT License. 
 
 This preserves the Markdown formatting while displaying it inside a code block. Let me know if you need further refinements! 🚀
 
